@@ -1,14 +1,14 @@
 <template>
-    <HelloWorld />
+    <SiteNavbar />
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import SiteNavbar from "./components/SiteNavbar.vue";
 
 export default {
     name: "App",
     components: {
-        HelloWorld,
+        SiteNavbar,
     },
 };
 </script>
