@@ -1,3 +1,51 @@
-.navbar-brand {
-    font-weight: bold;
+$primary-color:#ED5C00 ;
+$text-color: #000;
+$b-color: #fff;
+
+.topnav {
+    overflow: hidden;
+    background-color: $b-color;
+  }
+  
+  .topnav a {
+    float: left;
+    color: $text-color;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: $text-color;
+  }
+  
+  .topnav a.active {
+    background-color: $primary-color;
+    color: $text-color;
+  }
+
+
+  .topnav a.login {
+      float: right;
+    background-color: $primary-color;
+    color: $text-color;
+  }
+
+  .topnav a.checkout {
+    float: right;
+  background-color: $b-color;
+  color: $text-color;
 }
+
+
+  .topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border-radius: 5px;
+    border-color: $text-color;
+    font-size: 17px;
+  }
