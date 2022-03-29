@@ -1,0 +1,30 @@
+.SiteFooter {
+    
+display: grid;
+justify-content: end;
+align-content: end;
+min-height: 100vh;
+position: relative;
+width: 100%;
+height: auto;
+
+
+&.footer{
+
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 2em;
+    row-gap: 2em;
+      
+
+
+
+
+}
+
+    }
+
+
+
+
