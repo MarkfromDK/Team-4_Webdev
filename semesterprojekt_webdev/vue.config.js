@@ -4,5 +4,5 @@ module.exports = defineConfig({
 })
 
 module.exports = {
-  publicPath: '/Team-4_Webdev/'
+  publicPath: '/Team-4_Webdev/semesterprojekt_webdev/'
 }
