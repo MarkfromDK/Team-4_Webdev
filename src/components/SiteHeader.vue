@@ -1,6 +1,6 @@
 <template>
     <div class="header">
-        <img src="../assets/EldenRing-banner.png">
+        <img src="../assets/EldenRing-banner.png" />
         <h2>Elden Ring</h2>
         <button class="button button1">Køb nu</button>
     </div>
@@ -10,6 +10,4 @@
 export default {};
 </script>
 
-<style>
-    
-</style>
+<style></style>
