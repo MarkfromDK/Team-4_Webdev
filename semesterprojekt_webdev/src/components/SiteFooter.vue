@@ -1,9 +1,13 @@
 <template>
     <div class="SiteFooter"> 
+        
         <div class="footer">
-        <a class= "footer__logo" href="#">
+        <!-- <a class= "footer__logo" href="#">
             <img src="/images/logo.svg" />
-        </a>
+        </a> -->
+        <div class="logo-placeholder">
+<h1>logo</h1>
+        </div>
         <div class="footer__department">
             <h2>Afdelinger</h2>
             <ul class="department__list">
@@ -16,6 +20,7 @@
             <li><a href="#">PC</a></li>
             <li><a href="#">PC Download</a></li>
             <li><a href="#">Nintendo 3DS</a></li>   
+            
             </ul>
         </div>
 
@@ -27,21 +32,22 @@
 
         <div class="footer__social">
             <h2>Social</h2>
-            <ul>
-           <li><a href="#">
-                <img src="/images/facebook.svg" alt="Facebook">
-            </a></li>
-                <li><a href="#">
-                <img src="/images/instagram.svg" alt="Instagram">
-            </a></li>
-                <li><a href="#">
-                <img src="/images/twitter.svg" alt="Twitter">
-            </a></li>
-            </ul>
+            <div class="social__list">
+                <a href="#" class="fa-facebook fa-xl"><fa :icon= "['fab', 'facebook',]"/></a>
+                <a href="#" class="fa-instagram fa-xl"><fa :icon= "['fab', 'instagram',]"/></a>
+                <a href="#" class="fa-youtube fa-xl"><fa :icon= "['fab', 'youtube',]"/></a>
+                <a href="#" class="fa-twitter fa-xl"><fa :icon= "['fab', 'twitter',]"/></a>
+
+                <!-- <fa :icon= "['fab', 'facebook',]"/><a href="#"></a>
+                <fa :icon= "['fab', 'youtube',]"/><a href="#"></a>
+                <fa :icon= "['fab', 'instagram',]"/><a href="#"></a>
+                <fa :icon= "['fab', 'twitter',]"/><a href="#"></a>
+                 -->
+            </div>
         </div>
         </div>
        <div class="copyrightText">
-           <p>laurits is supreme leader of the site</p>
+           <p>plz dont copy</p>
        </div>
     </div>
 </template>
