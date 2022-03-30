@@ -1,9 +1,8 @@
 <template>
     <div class="topnav">
-  <a class="active" href="#home">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
+  <a class="active" href="#home">Forside</a>
+  <a href="#news">Shop</a>
+  <a href="#contact">Kontakt</a>
         <a class="checkout" href="#checkout">Kurv</a>
       <a class="login" href="#login">Login</a>
 
