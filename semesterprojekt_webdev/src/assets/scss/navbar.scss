@@ -22,14 +22,13 @@ $b-color: #fff;
   }
   
   .topnav a.active {
-    background-color: $primary-color;
+    margin-left: 150px;
     color: $text-color;
   }
 
 
   .topnav a.login {
       float: right;
-    background-color: $primary-color;
     color: $text-color;
   }
 
