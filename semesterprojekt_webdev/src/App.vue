@@ -1,6 +1,7 @@
 <template>
     <SiteNavbar />
     <SiteFooter />
+    <router-view/>
 </template>
 
 <script>
