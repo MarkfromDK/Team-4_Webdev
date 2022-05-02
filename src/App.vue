@@ -7,6 +7,8 @@
             <h3 class="title">{{ product.attributes.title }}</h3>
         </div>
     </div>
+        <!-- <router-link :to="{ name: 'Home'}"> Home </router-link> -->
+    <router-view/>
 </template>
 
 <script>
